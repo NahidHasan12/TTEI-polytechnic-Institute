@@ -1,0 +1,292 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	transition: 1s;
+}
+
+#header, #footer, #main{
+	width: 80%;
+	height: 100px;
+	margin: 5px auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: gray;
+}
+#header h1{
+    color: white;
+    margin: 26px 59px;
+    font-size: 37px;
+    font-family: system-ui;
+
+}
+
+#main{
+    height: 500px;
+    border-radius: 0;
+    
+}
+
+#main1, #main2{
+	width: 25%;
+	height: 484px;
+    margin: 6px auto;
+    margin-left: 7px;
+    border: 1px solid black;
+    background: #ded7d7;
+    float: left;
+}
+#main2{
+    width: 73%;
+    margin-left: 5px;
+    overflow: auto;
+}
+
+#main #main2 #view{
+    width: 208px;
+    height: 57px;
+    float: right;
+    margin-right: 11px;
+}
+
+#main1 li{
+	list-style-type: none;
+    background: #8080807a;
+    margin: 10px 10px 10px;
+}
+#main1 li a{
+	text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding-left: 12px;
+    padding-right: 32px;
+    background: gray;
+}
+#main1 li .a1{
+    padding-right: 148px;
+}
+#main1 li .a2{
+	padding-right: 137px;
+}
+#main1 li .a3{
+	padding-right: 83px;
+}
+#main1 li .a4{
+	padding-right: 128px;
+}
+#main1 li .a5{
+	padding-right: 160px;
+}
+
+#main1 li a:hover{
+	background: black;
+	transition: 1s;
+}
+
+#main #main2 #main21{
+	width: 98%;
+    height: 35px;
+    margin: 1px auto;
+}
+
+#main #main2 #main21 a{
+	text-decoration: none;
+    color: white;
+    background: black;
+    font-size: 20px;
+    padding: 0px 11px 8px 11px;
+
+}
+
+#main #main2 #main21 a:hover{
+    color: black;
+    background: #ded7d7;
+    transition: 1s;
+    border: 1px solid black;
+
+}
+
+
+
+#main #main2 #main22{
+	width: 98%;
+    height: 473px;
+    margin: 5px auto;
+    overflow: auto;
+}
+
+#main #main2 #main22 #batch a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    font-size: 20px;
+    padding: 0px 11px 8px 11px;
+
+}
+
+#main #main2 #main22 #batch a:hover{
+    color: black;
+    background: #ded7d7;
+    transition: 1s;
+    border: 1px solid black;
+
+}
+
+
+
+#main #main2 #main22 #main221{
+	width: 98%;
+    height: 271px;
+    margin: 5px auto;
+}
+
+#main #main2 #main22 #main221 input{
+	width: 200%;
+    height: 22px;
+    padding-left: 10px;
+    color: #03a9f4;
+    font-weight: bold;
+    font-family: -webkit-pictograph;
+    outline: none;
+}
+
+
+#main #main2 #main22 #main221 .btns{
+	width: 210%;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -webkit-pictograph;
+    background: black;
+    border: none;
+    cursor: pointer;
+}
+
+#main #main2 #main22 #main221 .btns:hover{
+	background: #ded7d7;
+	color: black;
+	border: 1px solid black;
+	transition: 1s; 
+}
+
+/*
+Admission code
+*/
+
+#main #main2 #adm{
+	width: 98%;
+    height: 394px;
+    margin: 1px auto;
+    overflow: auto;
+}
+
+#main #main2 #adm #table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#main #main2 #adm #th, #td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+#main #main2 #adm #tr:nth-child(even){background-color: #f2f2f2}
+
+#main #main2 #adm #th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*
+Gallery Code
+*/
+
+#main #main2 #glry{
+    width: 83%;
+    height: 438px;
+    margin: 4px auto;
+}
+
+#main #main2 .insert{
+    width: 53%;
+    height: 36px;
+    text-align: center;
+    margin-top: 8px;
+    background: black;
+    color: white;
+    font-size: 27px;
+    font-family: unset;
+    cursor: pointer;
+}
+#main #main2 .insert:hover{
+    background: none;
+    color: black;
+    transition: 1s;
+}
+
+/*
+User code
+*/
+
+.form{
+    position: absolute;
+    min-height: 500px;
+    width: 600px;
+    margin: -37px auto;
+    text-align: center;
+}
+
+.form h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #544b4b;
+    margin-top: 50px;
+    margin-left: -47px;
+    line-height: 0.1;
+}
+
+.fname{
+    width: 56%;
+    height: 33px;
+    margin-top: 26px;
+    padding-left: 11px;
+    outline: none;
+    display: block;
+    margin-left: 100px;
+    background: #ded7d7;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0791ff;
+
+}
+
+.submit{
+    width: 30%;
+    height: 37px;
+    margin-top: 16px;
+    border: 1px solid #020202;
+    display: block;
+    margin-left: 188px;
+    background-color: #000000;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+
+}
+.submit:hover{
+    background: none;
+    transition: 1s;
+    color: black;
+}
+
+#footer h1{
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    font-family: system-ui;
+
+}

@@ -1,0 +1,568 @@
+/*
+Responsive css
+*/
+
+@media only screen and (max-width: 1240px){
+	.sec {
+		width: 90%;
+	}
+
+	#dbasic{
+	    width: 82%;
+    height: 706px;
+    
+}
+#dbp{
+	width: 89%;
+    height: 637px;
+
+}
+/* dinfo*/
+
+
+.dinfo .dinfo3 .dinfo31 {
+    width: 32%;
+}
+
+.dinfo .dinfo3 .dinfo32 .dinfo321 {
+    width: 31%;
+    margin-left: 87px;
+}
+
+.dinfobtn {
+    width: 25%;
+}
+
+}
+
+@media only screen and (max-width: 1036px){
+	.sec {
+		width: 90%;
+	}
+
+	#nav li a {
+	font-size: 12px;
+	
+}
+#nav input[type="search"] {
+	
+	padding: 9.6px 2px;
+	
+}
+
+	#dbasic{
+	 width: 83%;
+    height: 759px;
+    
+}
+#dbp{
+	width: 92%;
+    height: 674px;
+}
+
+
+/* dinfo*/
+
+
+.dinfo .dinfo3 .dinfo31 {
+    width: 44%;
+}
+.dinfo .dinfo3 .dinfo32 {
+    min-height: 400px;
+}
+.dinfo .dinfo3 .dinfo32 .dinfo321 {
+   width: 32%;
+    margin-left: 40px;
+    height: 294px;
+}
+
+}
+
+@media only screen and (max-width: 836px){
+	#nav li a {
+	font-size: 10px;
+	
+}
+#nav input[type="search"] {
+	
+	padding: 8.6px 2px;
+	
+}
+
+	#dbasic{
+	    width: 86%;
+    height: 775px;
+    
+}
+/* dinfo*/
+.dinfobtn {
+    width: 25%;
+}
+
+/* dinfo*/
+
+
+.dinfo .dinfo3 .dinfo31 {
+    width: 57%;
+}
+
+.dinfo .dinfo3 .dinfo32 .dinfo321 {
+  width: 36%;
+    height: 294px;
+    margin-right: 4px;
+
+}
+}
+@media only screen and (max-width: 700px){
+
+
+	#dbasic{
+	   width: 83%;
+    height: 880px;
+    
+}
+
+
+
+}
+@media only screen and (max-width: 625px){
+
+
+	#dbasic{
+	   width: 87%;
+    height: 890px;
+    
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+
+
+.sec{
+	width: 440px;
+}
+
+
+
+.sub,.ob,.newsletter_1 {
+	display: none;
+}
+.head_ch img {
+	
+	margin-left: 0%;
+}
+.desc {
+	width: 100%;
+        line-height:6.1px;
+}
+.desc h2 {
+	font-size: 18px;
+}
+
+#time{
+     display: none;
+}
+
+#nav li{
+	float: none;
+}
+#nav li:nth-child(7), #nav li:nth-child(8), #nav li:nth-child(9), #nav li:nth-child(10), #nav li:nth-child(11){
+	float: left;
+	margin-left: 0%;
+}
+#nav li input[type="search"] {
+	padding: 2.6% 1%;
+margin-top: 1.4%;
+}
+.slider,.rightbar, .newsletter_1, .newsletter_2,
+.product, .head_ch, .news_2_1, .news_2_2, .bchild {
+	width: 100%;
+}
+.head_ch, .product, .blog_title, .blog_title h4,.title h2,.title p,#rt_nl{
+	text-align: center;
+}
+.blog_title h4,.title h2{
+	font-size: 20px;
+}
+
+.blog_title p, .title p{
+	font-size: 70%;
+max-width: 100%;
+margin-top: 4%;
+margin-bottom: 4%;
+}
+.imu_sc_nl {
+	width: 100%;
+	text-align: center;
+}
+#rt_nl h1 {
+	margin-top: 6%;
+}
+.copy, .dev , .trade{
+	width: 100%;
+	text-align: center;
+}
+.imu_gettin{
+	width: 100%;
+	text-align: left;
+}
+
+.dev {
+	text-align: center;
+	float: left;
+}
+.part-1, .part-2, .part-3 ,.rdbar, .left_g{
+	width: 100%;
+}
+
+#f_dtls {
+
+	float: none;
+text-align: center;
+
+}
+
+.contact {
+	float: none;
+	text-align: center;
+}
+.menu {
+	display: none;
+}
+.mobile_menu {
+	display: block;
+}
+#navi{
+	display: none;
+}
+#navi li a {
+	text-decoration: none;
+	background: #4CAF50;
+	color: #fff;
+	padding: 6px 8px;
+	display: block;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: capitalize;
+	margin-left: 0px;
+	border-left: 10px solid #089CFF;
+	margin-bottom: 3px;
+	opacity: .9;
+}
+#navi li input[type="search"] {
+	background: #1ddd4b73;
+	border: none;
+	font-size: 14px;
+	padding: 2.7% 6%;
+	line-height: 14px;
+	width: 100%;
+	font-weight: 500;
+	border-left: 10px solid;
+}
+#navi li a:hover {
+	background: #03A0C4;
+	color: #fff;
+}
+
+#navi li a i
+{
+	color: #1ddd4b;
+	font-size: 30px;
+}
+
+.watermark {
+	background: #000;
+	overflow: hidden;
+	opacity: .8;
+	padding: 5% 0;
+}
+
+.col-md-6 input {
+	
+	width: 100%;
+	padding: 2.8% 1%;
+	
+}
+.col-md-6 input[type="message"] {
+	
+	width: 100%;
+	
+}
+#gmap_canvas {
+	width: 100% !important;
+}
+
+
+	#dbasic{
+	       width: 97%;
+           height: 963px;
+    
+}
+#dbp{
+	width: 95%;
+    height: 870px;
+}
+
+/* dptmt code*/
+
+
+#dpmt{
+	height: 1875px;
+}
+.ctnr  .box{
+ 	position: relative;
+ 	width: calc(400px - 30px);
+ 	height: calc(300px - 30px);
+ }
+  .ctnr .box:hover .iconimg{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+ }
+ .ctnr .box .contnt{
+	top: 90px;
+}
+
+
+/*
+govd body ans video code
+*/
+
+#vg{
+	height: 670px;
+    width: 100%;
+	
+}
+
+#vg .gbody, .vdo{
+	width: 98%;
+    height: 300px;
+    float: none;
+    margin-top: 22px;
+}
+#vg .vdo{
+	float: none;
+	border: none;
+	
+}
+
+/* About code */
+
+.clgt h1{
+	font-size: 17px;
+    font-weight: bold;
+
+}
+
+.clgt .imga{
+    width: 95%;
+    height: 390px;
+
+}
+
+.clgt .aboutp{
+    width: 95%;
+    height: 271px;
+}
+
+/*
+Department code
+*/
+
+.half {
+    width: 91%;
+    margin: 30px 4px;
+}
+
+.dintro3{
+    height: 1208px;
+}
+
+.dintro31 .dintro311{
+	width: 84%;
+    height: 218px;
+    margin: 8px 37px;
+}
+
+.dintro3112 a{
+	font-size: 16px;
+    margin: 0px 125px;
+}
+
+.dintro32{
+	width: 99%;
+}
+
+.dintro32 .dintro321{
+	width: 84%;
+    height: 218px;
+    margin: 8px 37px;
+}
+
+
+
+/**
+Department Information Code
+**/
+.dinfo .dinfo2 {
+    height: 290px;
+}
+.dinfo .dinfo3 .dinfo31 {
+    width: 80%;
+}
+
+.dinfo .dinfo3 .dinfo32 {
+    height: 628px;
+}
+
+.dinfo .dinfo3 .dinfo32 .dinfo321 {
+    width: 74%;
+    margin-left: 52px;
+}
+.dinfo .dinfo4 .dinfo41 {
+    width: 99%;
+}
+
+.dinfo .dinfo4 .dinfo41 th, td {
+    text-align: left;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.dinfobtn {
+    width: 25%;
+}
+
+.dinfobtn a {
+    font-size: 15px;
+}
+
+/*student Code*/
+
+#student #student1 th, td {
+    text-align: left;
+    padding: 5px;
+    font-size: 10px;
+}
+/*
+Teacher Code
+*/
+
+#teacher{
+	width: 99%;
+	min-height: 550px;
+}
+#teacher #teacher2, #teacher3{
+    width: 99%;
+   
+}
+#teacher #teacher2 #teacher21{
+   width: 55%;
+    margin-left: 9.9px;
+
+}
+
+#teacher #teacher2 #teacher22{
+    width: 40%;
+}
+
+
+/**
+Admin Code
+**/
+
+#admin #admin2{
+	width: 90%;
+    height: 320px;
+    margin: 14px auto;
+
+}
+#admin #admin2 h1{
+	font-size: 23px;
+    
+}
+#admin #admin2 h3{
+	font-size: 18px;
+    
+}
+#admin #admin2 #admin21{
+    height: 228px;
+}
+
+#admin3{
+	min-height: 950px;
+}
+
+#admin3 #admin31, #admin32, #admin33{
+	width: 58%;
+    margin-left: 91px;
+}
+/**
+Admission Code
+**/
+
+#admission #admission3 a {
+    padding: 10px 47px;
+    height: 20px;
+    font-size: 30px;
+}
+
+/**
+Contact code
+**/
+
+#contact {
+    min-height: 446px;
+}
+#contact #contact2 {
+    width: 100%;
+    height: 213px;
+}
+#contact #contact2 h1 {
+    font-size: 29px;
+}
+
+#contact #contact21 {
+    width: 80%;
+    height: 231px;
+}
+#contact #contact21 h3 {
+    font-size: 27px;
+}
+
+
+/**
+Gallery Codee
+**/
+
+#gallery {
+    width: 99%;
+}
+
+#gallery .gallery2 {
+    height: 290px;
+}
+
+#gallery .gallery2 .gallery21 {
+    width: 23.1%;
+    min-height: 132px;
+}
+
+
+/**
+Ragistration Code
+**/
+
+#ragistration #ragistration2{
+    width: 99%;
+    min-height: 450px;
+    padding-left: 10px;
+
+
+}
